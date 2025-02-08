@@ -1,0 +1,21 @@
+graph type: digraph net
+vertex num: 6
+arc num: 10
+vertices:
+  - v1
+  - v2
+  - v3
+  - v4
+  - v5
+  - v6
+arcs:
+  - {vi: v1, vj: v2, w: 5}
+  - {vi: v2, vj: v3, w: 4}
+  - {vi: v3, vj: v1, w: 8}
+  - {vi: v6, vj: v1, w: 3}
+  - {vi: v6, vj: v5, w: 1}
+  - {vi: v5, vj: v4, w: 5}
+  - {vi: v4, vj: v6, w: 1}
+  - {vi: v1, vj: v4, w: 7}
+  - {vi: v3, vj: v6, w: 9}
+  - {vi: v4, vj: v3, w: 5}

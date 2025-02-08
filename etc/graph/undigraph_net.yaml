@@ -1,0 +1,27 @@
+graph type: undigraph net
+vertex num: 8
+arc num: 14
+vertices:
+  - v1
+  - v2
+  - v3
+  - v4
+  - v5
+  - v6
+  - v7
+  - v8
+arcs:
+  - {vi: v1, vj: v2, w: 4}
+  - {vi: v1, vj: v3, w: 3}
+  - {vi: v3, vj: v2, w: 5}
+  - {vi: v4, vj: v2, w: 5}
+  - {vi: v3, vj: v4, w: 5}
+  - {vi: v5, vj: v2, w: 9}
+  - {vi: v3, vj: v8, w: 5}
+  - {vi: v4, vj: v5, w: 7}
+  - {vi: v4, vj: v6, w: 6}
+  - {vi: v4, vj: v7, w: 5}
+  - {vi: v4, vj: v8, w: 4}
+  - {vi: v5, vj: v6, w: 3}
+  - {vi: v6, vj: v7, w: 2}
+  - {vi: v7, vj: v8, w: 6}

@@ -1,0 +1,29 @@
+graph type: undigraph
+vertex num: 9
+arc num: 14
+vertices:
+  - v1
+  - v2
+  - v3
+  - v4
+  - v5
+  - v6
+  - v7
+  - v8
+  - v9
+arcs:
+  - {vi: v1, vj: v2, w: 1}
+  - {vi: v1, vj: v3, w: 1}
+  - {vi: v2, vj: v4, w: 1}
+  - {vi: v2, vj: v5, w: 1}
+  - {vi: v2, vj: v8, w: 1}
+  - {vi: v3, vj: v5, w: 1}
+  - {vi: v3, vj: v6, w: 1}
+  - {vi: v4, vj: v8, w: 1}
+  - {vi: v4, vj: v9, w: 1}
+  - {vi: v5, vj: v9, w: 1}
+  - {vi: v5, vj: v7, w: 1}
+  - {vi: v6, vj: v7, w: 1}
+  - {vi: v8, vj: v9, w: 1}
+  - {vi: v9, vj: v7, w: 1}
+

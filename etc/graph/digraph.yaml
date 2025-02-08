@@ -1,0 +1,16 @@
+graph type: digraph
+vertex num: 4
+arc num: 7
+vertices:
+  - v1
+  - v2
+  - v3
+  - v4
+arcs:
+  - {vi: v1, vj: v2, w: 1}
+  - {vi: v4, vj: v2, w: 1}
+  - {vi: v4, vj: v1, w: 1}
+  - {vi: v3, vj: v4, w: 1}
+  - {vi: v1, vj: v3, w: 1}
+  - {vi: v3, vj: v1, w: 1}
+  - {vi: v4, vj: v3, w: 1}

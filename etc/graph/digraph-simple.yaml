@@ -1,0 +1,11 @@
+graph type: digraph
+vertex num: 3
+arc num: 3
+vertices:
+  - v1
+  - v2
+  - v3
+arcs:
+  - {vi: v1, vj: v2, w: 1}
+  - {vi: v2, vj: v3, w: 1}
+  - {vi: v1, vj: v3, w: 1}
